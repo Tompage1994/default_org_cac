@@ -6,6 +6,12 @@ controller_inventory_sources:
     source_project: demo_inventory_project
     source_path: inventory.yml
     inventory: demo_inventory
-    overwrite: true
-    overwrite_vars: true
+  - name: demo_inventory_aws
+    organization: Default
+    source: ec2
+    credential: aws
+    source_vars:
+      hostnames:
+        - tag:Name
+        - tag:CustomDNSName
 ...
