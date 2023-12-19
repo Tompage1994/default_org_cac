@@ -1,5 +1,5 @@
 ---
-controller_inventories_all:
+controller_inventories:
   - name: demo_inventory
     description: inventory for demo
     organization: Default
