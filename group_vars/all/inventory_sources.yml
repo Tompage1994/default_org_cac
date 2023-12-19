@@ -10,6 +10,7 @@ controller_inventory_sources:
     organization: Default
     source: ec2
     credential: aws
+    inventory: demo_inventory
     source_vars:
       hostnames:
         - tag:Name
