@@ -1,0 +1,6 @@
+---
+controller_inventories_all:
+  - name: demo_inventory
+    description: inventory for demo
+    organization: Default
+...

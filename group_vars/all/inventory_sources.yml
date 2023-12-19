@@ -1,0 +1,11 @@
+---
+controller_inventory_sources_all:
+  - name: demo_inventory
+    organization: Default
+    source: scm
+    source_project: demo_inventory_project
+    source_path: inventory.yml
+    inventory: demo_inventory
+    overwrite: true
+    overwrite_vars: true
+...

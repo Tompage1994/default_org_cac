@@ -1,0 +1,7 @@
+---
+controller_projects_all:
+  - name: demo_inventory_project
+    organization: Default
+    scm_type: git
+    scm_url: https://github.com/Tompage1994/demo_inventory.git
+...
