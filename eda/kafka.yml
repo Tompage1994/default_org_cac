@@ -1,0 +1,15 @@
+---
+- name: Demo rules with kafka as source
+  hosts: localhost
+  sources:
+    - name: kafka
+      kafka:
+        topic: FirstKafkaTopic
+        host: ah.aap24.local
+        port: 9092
+
+  rules:
+    - name: Check defined
+      condition: event.body.i is defined
+      action:
+        debug:
