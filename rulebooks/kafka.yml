@@ -10,5 +10,6 @@
 
   rules:
     - name: Check defined
+      condition: event.body is defined
       action:
         debug:
